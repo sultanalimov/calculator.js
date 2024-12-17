@@ -1,0 +1,28 @@
+
+.controlContainer{
+    width: 100%;
+    height: 65%;
+    margin: 0;
+    margin-top: -13px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+
+.controlContainer > div{
+    background-color: #03ffdd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+
+.controlContainer > div:hover{
+    background-color: #c8dad7;
+}
